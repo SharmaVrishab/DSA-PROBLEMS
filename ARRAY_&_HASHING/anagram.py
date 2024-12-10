@@ -2,7 +2,7 @@ def brute_anagram_test(s,t):
     if len(s) != len(t):
         return False
     return sorted(s) == sorted(t)
-    
+//solution 2    
 def anagram_test_hashtable(s,t):
     if len(s) != len(t):
         return False
